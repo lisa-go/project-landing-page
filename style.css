@@ -100,6 +100,7 @@ a {
 
 .info {
     margin: 32px 0;
+    padding: 32px;
     background-color: white;
     
 }
@@ -116,6 +117,7 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 8px;
 }
 
 .info-item img {
@@ -127,12 +129,17 @@ a {
     padding: 2px;
 }
 
+.info-text {
+    width: 150px;
+    
+}
+
 .info-box {
     display: flex;
     justify-content: center;
     margin: 16px;
     padding: 0;
-    gap: 8px;
+    gap: 32px;
 }
 
 .quote-container {
@@ -152,4 +159,35 @@ a {
     color:#1F2937;
     text-align: right;
     padding-right: 50px;
+}
+
+.signup-container {
+    margin: 50px 150px;
+    padding: 36px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.signup-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.signup-text {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-button button {
+    font-size: 14px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 26px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
