@@ -134,3 +134,22 @@ a {
     padding: 0;
     gap: 8px;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding:  50px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: right;
+    padding-right: 50px;
+}
