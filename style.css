@@ -5,12 +5,13 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(pink,white);
     
 }
 
 .header,
 .hero {
-    background-color: #1F2937;
+    background-color: #727272cc;
     margin: 0;
 }
 
@@ -38,6 +39,12 @@ body {
 .header a {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.header a:hover {
+    color: pink;
+    font-weight: 800;
+    transition: 1s;
 }
 
 .logo {
@@ -71,6 +78,9 @@ body {
     height: 100%;
     display: flex;
     flex: 0 1 50%;
+    border-radius: 16px;
+    border: 2px dashed white;
+    padding: 5px;
 }
 
 .hero-title {
@@ -91,8 +101,9 @@ body {
 }
 
 .hero-button button{
-    background-color: #3882F6;
+    background-color: #ff95a7;
     color: #F9FAF8;
+    font-weight: 800;
     display: flex;
     flex-direction: column;
     padding: 8px 26px;
@@ -100,10 +111,16 @@ body {
     border: none;
 }
 
+.hero-button button:hover {
+    background-color: #F9FAF8;
+    color: #ff95a7;
+    transition: 0.7s;
+}
+
 .info {
     margin: 32px 0;
     padding: 32px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     
 }
 
@@ -123,8 +140,8 @@ body {
 }
 
 .info-item img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border: 3px solid #3882F6;
     border-radius: 8px;
@@ -132,7 +149,7 @@ body {
 }
 
 .info-text {
-    width: 150px;
+    width: 200px;
     
 }
 
@@ -145,7 +162,7 @@ body {
 }
 
 .quote-container {
-    background-color: #E5E7EB;
+    background-color: #72727288;
     padding:  50px 15%;
 }
 
@@ -166,7 +183,7 @@ body {
 .signup-container {
     margin: 100px 20%;
     padding: 36px;
-    background-color: #3882F6;
+    background-color: #ff95a7;
     color: #F9FAF8;
     border-radius: 8px;
     display: flex;
@@ -192,12 +209,18 @@ body {
     border: 2px solid #F9FAF8;
     border-radius: 8px;
     padding: 8px 26px;
-    background-color: #3882F6;
+    background-color: #ff95a7;
     color: #F9FAF8;
 }
 
+.signup-button button:hover {
+    background-color: #F9FAF8;
+    color: #ff95a7;
+    transition: 0.7s;
+}
+
 .footer {
-    background-color: #1F2937;
+    background-color: #727272;
     color: #E5E7EB;
     text-align: center;
     padding: 16px;
